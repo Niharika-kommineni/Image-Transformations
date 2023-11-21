@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Mooli&family=Roboto:wght@100&family=Rubik+Iso&display=swap');
+  *{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font: 1.5rem 'Mooli', sans-serif;
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    background-image:radial-gradient(yellow);
+}
+header,footer{
+    position: sticky;
+    background-color: chartreuse;
+    text-align: center;
+}
+header{
+    top: 0;
+}
+nav{
+    background-color: blueviolet;
+    padding: 0.5rem;
+    border-bottom: 3px;
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: bolder;
+} 
+nav a,nav a:active{
+    color: cyan;
+}
+nav a,nav a:visited{
+    color:coral;
+}
+nav a,nav a:hover{
+    color: green;
+}
+nav a,nav a:focus{
+    color: red;
+}
+main{
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    align-items: center;
+    padding:1rem;
+    grid-gap:1.5rem;
+}
+footer{
+    bottom: 0;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    border: 1rem solid green;
+    background-color: aqua;
+    width:min(100%,320px) ;
+    scroll-margin-top:8rem;
+}
+.card figure{
+    display: flex;
+    flex-flow: column nowrap;
+}
+.card img{
+    border-radius: 50%;
+    border:3px solid yellow;
+}
+.card figcaption{
+ font-weight: bolder;
+ margin: 1rem;
+ font-size: 2rem;
+}
